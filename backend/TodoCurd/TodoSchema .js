@@ -4,7 +4,7 @@ const TodoSchema = new Schema({
     todo:String,
     checked:{
         type:Boolean,
-        default:true
+        default:false
     }
 },{
     timestamps:true
