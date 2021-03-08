@@ -4,7 +4,7 @@ import './index.css';
 import App from './components/App';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-//index page
+//index page of dev branch
 ReactDOM.render(
   <React.StrictMode>
     <App />
