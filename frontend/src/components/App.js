@@ -19,7 +19,7 @@ const App = ()=> {
     if(!tkn){
       
     }
-    FechData.POST('/registration/check_token',{token:tkn})
+    FechData.POST('/registration/check_token',{token:tkn},true)
     .then((res)=>{
       Toastify.showSuccess("You are logged in")
     })
